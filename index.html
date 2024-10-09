@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gudisa Sandeep - AI & ML Specialist</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    <style>
+        :root {
+            --primary-color: #4a90e2;
+            --secondary-color: #f5f5f5;
+            --text-color: #333;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 0.5rem;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav ul li {
+            margin: 0 1rem;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        
+        section {
+            margin-bottom: 2rem;
+        }
+        
+        h1, h2 {
+            color: var(--primary-color);
+        }
+        
+        .project {
+            background-color: var(--secondary-color);
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 5px;
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        
+        .skill {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 0.5rem;
+            border-radius: 5px;
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav ul li {
+                margin: 0.5rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gudisa Sandeep</h1>
+        <p>AI & ML Specialist | Pre-final Year Student</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>AI enthusiast with a solid foundation in Data Structures, Algorithms, and Machine Learning. Proven ability to develop innovative AI solutions through creative problem-solving.</p>
+        </section>
+        
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Multimodal Conversational AI</h3>
+                <p>Engineered a versatile chatbot supporting text, voice, and image-based interactions. Implemented advanced Natural Language Processing for context-aware conversations.</p>
+            </div>
+            <div class="project">
+                <h3>Advanced Virtual Assistant</h3>
+                <p>Architected a sophisticated virtual assistant capable of voice interaction and visual perception. Implemented computer vision algorithms for real-time object and person recognition. Integrated Gemini Model for contextual understanding and response generation.</p>
+            </div>
+            <div class="project">
+                <h3>Interactive AI Website</h3>
+                <p>Developed and deployed a comprehensive platform featuring 10 AI tools using Python and the Gemini model. Orchestrated seamless deployment on Railway.app, ensuring high availability and scalability.</p>
+            </div>
+        </section>
+        
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills">
+                <span class="skill">Python</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">Flask</span>
+                <span class="skill">Streamlit</span>
+                <span class="skill">Gradio</span>
+                <span class="skill">Android Studio</span>
+                <span class="skill">React Native</span>
+                <span class="skill">NLP</span>
+                <span class="skill">Machine Learning</span>
+                <span class="skill">Computer Vision</span>
+                <span class="skill">TensorFlow</span>
+                <span class="skill">Azure</span>
+                <span class="skill">Railway.app</span>
+            </div>
+        </section>
+        
+        <section id="experience">
+            <h2>Experience</h2>
+            <h3>MICROSOFT | VIRTUAL INTERNSHIP</h3>
+            <p>March 2024 - June 2024</p>
+            <ul>
+                <li>Engineered a comprehensive student portal enabling course discovery, review submission, and feedback collection</li>
+                <li>Leveraged Azure AI technologies to enhance user experience and streamline data processing</li>
+                <li>Optimized portal performance, resulting in a 30% increase in user engagement and satisfaction</li>
+            </ul>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: gudisasandeep141312@gmail.com</p>
+            <p>Phone: +91 6300050907</p>
+            <p>
+                <a href="https://github.com/GudisaSandeep" target="_blank"><i class="fab fa-github"></i> GitHub</a> |
+                <a href="https://linkedin.com/in/sandeep-gudisa" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Gudisa Sandeep. All rights reserved.</p>
+    </footer>
+    
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
