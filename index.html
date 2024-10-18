@@ -15,7 +15,15 @@
             --hover-color: #327abd;
             --footer-bg-color: #222;
         }
-        
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1rem;
+        }
         body {
             font-family: 'Roboto', sans-serif;
             line-height: 1.6;
@@ -179,39 +187,21 @@
     </style>
 </head>
 <body>
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gudisa Sandeep - AI & ML Engineer</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
-</head>
-<body class="bg-gray-100 font-sans">
-    <nav class="bg-blue-600 text-white p-4">
-        <div class="container mx-auto flex justify-between items-center">
-            <h1 class="text-2xl font-bold">Gudisa Sandeep</h1>
-            <a href="https://ibb.co/yRcDV15"><img src="https://i.ibb.co/0XRkQSZ/pancard.jpg" alt="pancard" border="0"></a> 
-            <ul class="flex space-x-4">
-                <li><a href="#about" class="hover:text-blue-200">About</a></li>
-                <li><a href="#skills" class="hover:text-blue-200">Skills</a></li>
-                <li><a href="#projects" class="hover:text-blue-200">Projects</a></li>
-                <li><a href="#experience" class="hover:text-blue-200">Experience</a></li>
-                <li><a href="#contact" class="hover:text-blue-200">Contact</a></li>
-            </ul>
-        </div>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </nav>
 
-    <header class="bg-blue-500 text-white py-16">
-        <div class="container mx-auto text-center">
-            <img src="/api/placeholder/200/200" alt="Gudisa Sandeep" class="rounded-full w-32 h-32 mx-auto mb-4 border-4 border-white shadow-lg">
-            <h1 class="text-4xl font-bold mb-4">Gudisa Sandeep</h1>
-            <p class="text-xl">AI & ML Engineer | Python Enthusiast | Problem Solver</p>
-        </div>
+    <header>
+        <img src="https://i.ibb.co/0XRkQSZ/pancard.jpg" alt="Gudisa Sandeep" class="profile-image">
+        <h1>Gudisa Sandeep</h1>
+        <p>AI & ML Engineer | Python Enthusiast | Problem Solver</p>
     </header>
-    
-   
     
     <main>
         <section id="about">
@@ -233,6 +223,7 @@
                 <h3>Interactive AI Website</h3>
                 <p>Developed and deployed a comprehensive platform featuring 10 AI tools using Python and the Gemini model. Orchestrated seamless deployment on Railway.app, ensuring high availability and scalability.</p>
             </div>
+            <!-- You can add more projects here as needed -->
         </section>
         
         <section id="skills">
